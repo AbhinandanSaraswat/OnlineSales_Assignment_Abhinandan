@@ -7,7 +7,7 @@ elif [ $N -lt 20 ]
 then
     OUT=1
     LIM=$((N - 10))
-#Without debugging the condition for below for loop was i<$LIM which means it would not be including the
+#Without debugging the condition for below for loop was i<$LIM which means it would not be including LIM
 #Therefore the result cannot be accurate. 
     for (( i=1; i<=$LIM; i++ ))
     do
